@@ -9,6 +9,6 @@ def create_app(test_config=None):
             SECRET_KEY=os.get.environ.get("SECRET_KEY"),
         )
     else:
-        app.config.from_mapping(test_config)IMPORT OS
+        app.config.from_mapping(test_config)
     
     return app
